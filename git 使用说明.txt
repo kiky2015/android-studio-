@@ -1,0 +1,8 @@
+git 忽略掉文件
+1、在 .git 文件夹同一个目录下新建 .gitignore 文件
+2、.gitignore 中填写如下内容
+.gradle			//忽略掉所有.gradle文件
+/.idea			//忽略掉所有根目录下的 .idea文件
+build			//忽略掉所有build文件
+*.iml			//忽略掉所有*.iml文件
+/local.properties	//忽略掉所有根目录下的local.properties文件
