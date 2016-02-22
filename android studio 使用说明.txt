@@ -1,4 +1,8 @@
 搜索 快捷键Crtl+Shift+F打开查找功能： ^((?!(\*|//)).)+[\u4e00-\u9fa5] 此正则表达式用来查找中文。
 
 自动补全代码	设置-->keymap 查找completion-->basic 点击鼠标右键，先选择"Romve"掉快捷键，然后再选择“Add Keyboard Shortcut”填入你想要的快捷键
+
+删除一行 Ctrl + X 
+
+复制增加一行 Ctrl + D
 	
