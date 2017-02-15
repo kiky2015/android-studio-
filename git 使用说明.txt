@@ -7,6 +7,7 @@ git将修改后的文件commit
 1、 git status
 2、 git add xxx.xxx   备注：xxx.xxx为文件名
 3、 git commit -m "说明"
+4、 git add .    备注:一次性填加所有文件。
 
 
 与github关联，推送本地文件到github上去
@@ -19,7 +20,7 @@ git将修改后的文件commit
 
 
 git 忽略掉文件
-1、在 .git 文件夹同一个目录下新建 .gitignore 文件
+1、在 .git 文件夹同一个目录下新建 .gitignore 文件 备注：touch .gitignore 命令创建文件
 2、.gitignore 中填写如下内容
 .gradle			//忽略掉所有.gradle文件
 /.idea			//忽略掉所有根目录下的 .idea文件
