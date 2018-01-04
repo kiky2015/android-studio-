@@ -1,29 +1,31 @@
-git°²×°ºóµÄ³õÊ¼»¯ÅäÖÃ
-1¡¢ git config --global user.name "kiky2015"
-2¡¢ git config --global user.email "duanyongzhia@163.com"
+gitå®‰è£…åçš„åˆå§‹åŒ–é…ç½®
+1ã€ git config --global user.name "kiky2015"
+2ã€ git config --global user.email "duanyongzhia@163.com"
 
 
-git½«ĞŞ¸ÄºóµÄÎÄ¼şcommit
-1¡¢ git status
-2¡¢ git add xxx.xxx   ±¸×¢£ºxxx.xxxÎªÎÄ¼şÃû
-3¡¢ git commit -m "ËµÃ÷"
-4¡¢ git add .    ±¸×¢:Ò»´ÎĞÔÌî¼ÓËùÓĞÎÄ¼ş¡£
+gitå°†ä¿®æ”¹åçš„æ–‡ä»¶commit
+1ã€ git status
+2ã€ git add xxx.xxx   å¤‡æ³¨ï¼šxxx.xxxä¸ºæ–‡ä»¶å
+3ã€ git commit -m "è¯´æ˜"
+4ã€ git add .    å¤‡æ³¨:ä¸€æ¬¡æ€§å¡«åŠ æ‰€æœ‰æ–‡ä»¶ã€‚
 
 
-Óëgithub¹ØÁª£¬ÍÆËÍ±¾µØÎÄ¼şµ½githubÉÏÈ¥
-1¡¢git init				//³õÊ¼»¯Ò»¸ö±¾µØgit²Ö¿â
-2¡¢git remote add origin https://github.com/kiky2015/android-studio-.git    //½«±¾µØ²Ö¿âÓëgithub²Ö¿â¹ØÁª   https://github.com/kiky2015/android-studio-.gitÊÇÎÒÔÚgithubĞÂ½¨ÁËÒ»¸öĞÂ²Ö¿â
-3¡¢git push -u origin master		//½«±¾µØgit²Ö¿âÍÆËÍµ½githubÉÏ£¬ -u ÎªµÚÒ»¸öÍÆËÍ£¬ÒÔºóÔÙÍÆËÍÊ±ÓÃ git push origin master  ¡£ÍÆËÍµ½githubĞèÒªÕË»§ºÍÃÜÂë
+ä¸githubå…³è”ï¼Œæ¨é€æœ¬åœ°æ–‡ä»¶åˆ°githubä¸Šå»
+1ã€git init				//åˆå§‹åŒ–ä¸€ä¸ªæœ¬åœ°gitä»“åº“
+2ã€git remote add origin https://github.com/kiky2015/android-studio-.git    //å°†æœ¬åœ°ä»“åº“ä¸githubä»“åº“å…³è”   https://github.com/kiky2015/android-studio-.gitæ˜¯æˆ‘åœ¨githubæ–°å»ºäº†ä¸€ä¸ªæ–°ä»“åº“
+3ã€git push -u origin master		//å°†æœ¬åœ°gitä»“åº“æ¨é€åˆ°githubä¸Šï¼Œ -u ä¸ºç¬¬ä¸€ä¸ªæ¨é€ï¼Œä»¥åå†æ¨é€æ—¶ç”¨ git push origin master  ã€‚æ¨é€åˆ°githubéœ€è¦è´¦æˆ·å’Œå¯†ç 
 
-Óëgithub¹ØÁªºó£¬´Ógithub¸üĞÂÎÄ¼ş
-1¡¢git pull
+ä¸githubå…³è”åï¼Œä»githubæ›´æ–°æ–‡ä»¶
+1ã€git pull
 
+//æ¸…é™¤æ‰€æœ‰ç¼“å­˜ï¼Œ ç”¨åœ¨å¿½ç•¥æ–‡ä»¶é‡æ–°è®¾ç½®æ—¶ï¼Œä¾¿é‡æ–°æäº¤æ–‡ä»¶ .ä¸ºæ‰€æœ‰ï¼Œä¹Ÿå¯ä»¥æŒ‡å®šæ–‡ä»¶
+git rm -r --cached .
 
-git ºöÂÔµôÎÄ¼ş
-1¡¢ÔÚ .git ÎÄ¼ş¼ĞÍ¬Ò»¸öÄ¿Â¼ÏÂĞÂ½¨ .gitignore ÎÄ¼ş ±¸×¢£ºtouch .gitignore ÃüÁî´´½¨ÎÄ¼ş
-2¡¢.gitignore ÖĞÌîĞ´ÈçÏÂÄÚÈİ
-.gradle			//ºöÂÔµôËùÓĞ.gradleÎÄ¼ş
-/.idea			//ºöÂÔµôËùÓĞ¸ùÄ¿Â¼ÏÂµÄ .ideaÎÄ¼ş
-build			//ºöÂÔµôËùÓĞbuildÎÄ¼ş
-*.iml			//ºöÂÔµôËùÓĞ*.imlÎÄ¼ş
-/local.properties	//ºöÂÔµôËùÓĞ¸ùÄ¿Â¼ÏÂµÄlocal.propertiesÎÄ¼ş
+git å¿½ç•¥æ‰æ–‡ä»¶
+1ã€åœ¨ .git æ–‡ä»¶å¤¹åŒä¸€ä¸ªç›®å½•ä¸‹æ–°å»º .gitignore æ–‡ä»¶ å¤‡æ³¨ï¼štouch .gitignore å‘½ä»¤åˆ›å»ºæ–‡ä»¶
+2ã€.gitignore ä¸­å¡«å†™å¦‚ä¸‹å†…å®¹
+.gradle			//å¿½ç•¥æ‰æ‰€æœ‰.gradleæ–‡ä»¶
+/.idea			//å¿½ç•¥æ‰æ‰€æœ‰æ ¹ç›®å½•ä¸‹çš„ .ideaæ–‡ä»¶
+build			//å¿½ç•¥æ‰æ‰€æœ‰buildæ–‡ä»¶
+*.iml			//å¿½ç•¥æ‰æ‰€æœ‰*.imlæ–‡ä»¶
+/local.properties	//å¿½ç•¥æ‰æ‰€æœ‰æ ¹ç›®å½•ä¸‹çš„local.propertiesæ–‡ä»¶
